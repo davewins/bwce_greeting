@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/greeting.module.greeting-greeting.json",
+        "type": "generated"
+    }]
+}
