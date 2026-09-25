@@ -4,7 +4,7 @@
     <sca:interface.wsdl xmi:id="_lMNLQONsEei2qdirYNFx5A" interface="http://xmlns.example.com/20181108164012PLT#wsdl.interface(greeting)" scaext:wsdlLocation="../Processes/greeting/module/greeting.bwp"/>
     <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_lMamoONsEei2qdirYNFx5A" name="RestService" path="/greeting/{name}" docBasePath="http://localhost:7777/greeting.module" docResourcePath="greeting" basePath="/" connector="greeting.module.greeting" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/greeting.module.greeting-greeting.json">
       <operation xmi:id="_lMhUUONsEei2qdirYNFx5A" operationName="get" nickname="get-greeting" httpMethod="GET" responseStyle="element">
-        <clientFormat>json</clientFormat>
+        <clientFormat>text</clientFormat>
         <clientRequestFormat>json</clientRequestFormat>
       </operation>
       <parameters xmi:id="_lPGuQONsEei2qdirYNFx5A">

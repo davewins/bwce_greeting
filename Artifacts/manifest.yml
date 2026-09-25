@@ -1,0 +1,6 @@
+---
+applications:
+- memory: "512M"
+  timeout: "60"
+  name: "greeting"
+  path: "C:\\Users\\dwinston\\git\\bwce_greeting\\Artifacts\\greeting_1.0.0.ear"

@@ -15,7 +15,7 @@
         "description" : "",
         "operationId" : "get-greeting",
         "consumes" : [ "application/json" ],
-        "produces" : [ "application/json" ],
+        "produces" : [ "text/plain" ],
         "parameters" : [ {
           "name" : "name",
           "in" : "path",
